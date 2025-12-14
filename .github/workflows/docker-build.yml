@@ -22,8 +22,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository_owner | lower }}/my-pipeline:latest .
+          docker build -t ghcr.io/muqeem4068/my-pipeline:latest .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ github.repository_owner | lower }}/my-pipeline:latest
+          docker push ghcr.io/muqeem4068/my-pipeline:latest
